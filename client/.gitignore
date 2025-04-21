@@ -1,0 +1,57 @@
+# Dependências
+/node_modules
+/.pnp
+.pnp.js
+/client/node_modules
+
+# Variáveis de ambiente
+.env                
+.env.local
+.env.development
+.env.test
+.env.production
+.env*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# Diretórios de build
+/dist
+/build
+/out
+.serverless/
+.next/
+
+# Cache
+.cache
+.turbo
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# IDE/Editor
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Testes
+/coverage
+jest.config.js
+cypress/
+
+# MongoDB 
+*.mongodb
+/data/db/
+
+# Arquivos do sistema operacional
+*.bak
+*.tmp
